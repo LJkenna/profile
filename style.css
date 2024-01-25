@@ -1,0 +1,112 @@
+body {
+  line-height: normal;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  background-color: rgb(237, 229, 229);
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.card {
+    margin: auto;
+    background-color: white;
+    width: 70%;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align:center;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.4);
+  }
+
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgreen
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green
+}
+
+#leepic {
+  margin-top: 20px;
+  max-width: 20%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 3px black;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+p {
+font-weight: bold;
+}
+
+#peep_show {
+  text-decoration:underline;
+  color:rgb(17, 173, 12)
+}
+
+#peep_show:hover {
+  background-color: rgba(217, 201, 31, 0.307);
+  color: rgba(227, 231, 18, 0.467);
+  box-shadow: 5px 5px 5px rgba(245, 229, 12, 0.205);
+  font-size: 150%;
+}
+
+.github:hover {
+  background-color: rgba(232, 141, 215, 0.307);
+  color: rgba(232, 163, 221, 0.215);
+  box-shadow: 5px 5px 5px rgba(231, 58, 205, 0.205);
+}
+
+.github {
+  width: 500px;
+  color: pink;
+  font-size: 80px;
+}
+
+.link-ul {
+list-style: none;
+padding-left: 0px 20px;
+}
+
+.link-ul li {
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+ g
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
